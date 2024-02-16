@@ -11,6 +11,6 @@ app.get('/',async (req,res)=>
     res.json(data)
 
 
-})
+}) 
 app.listen('3001',()=>
 console.log("responded"))
